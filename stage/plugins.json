@@ -1,6 +1,52 @@
 {
   "repos": [
     {
+      "installSize": 4077201,
+      "openIssues": 39,
+      "package": {
+        "author": "Dammyxy",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Stage 2 Flashcard Enhancement - Adding a complete spaced repetition system to SiYuan flashcards.",
+          "zh_CN": "第二阶段的闪卡强化，为思源的闪卡加入完善的间隔重复系统。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "SiYuanMemo",
+          "zh_CN": "间隔重复系统"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "flashcard",
+          "spaced-repetition",
+          "fsrs",
+          "incremental-reading"
+        ],
+        "minAppVersion": "3.2.1",
+        "name": "siyuan-plugin-siyuanmemo",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/Dammyxy/siyuan-plugin-siyuanmemo",
+        "version": "0.2.1"
+      },
+      "size": 1167545,
+      "stars": 18,
+      "updated": "2026-04-28T07:05:18Z",
+      "url": "Dammyxy/siyuan-plugin-siyuanmemo@bbb38fc30ea96f48d1d4723bbb12aa00a1dd8e58"
+    },
+    {
       "installSize": 6642713,
       "openIssues": 2,
       "package": {
@@ -669,52 +715,6 @@
       "stars": 5,
       "updated": "2026-04-26T10:06:55Z",
       "url": "QYLexpired/Asri-enhance@a26abef078cffccc84b94ed7467fbb4d46cc3e1f"
-    },
-    {
-      "installSize": 4033625,
-      "openIssues": 36,
-      "package": {
-        "author": "Dammyxy",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "Stage 2 Flashcard Enhancement - Adding a complete spaced repetition system to SiYuan flashcards.",
-          "zh_CN": "第二阶段的闪卡强化，为思源的闪卡加入完善的间隔重复系统。"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "SiYuanMemo",
-          "zh_CN": "间隔重复系统"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "flashcard",
-          "spaced-repetition",
-          "fsrs",
-          "incremental-reading"
-        ],
-        "minAppVersion": "3.2.1",
-        "name": "siyuan-plugin-siyuanmemo",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/Dammyxy/siyuan-plugin-siyuanmemo",
-        "version": "0.1.9"
-      },
-      "size": 1157140,
-      "stars": 17,
-      "updated": "2026-04-26T04:23:33Z",
-      "url": "Dammyxy/siyuan-plugin-siyuanmemo@cee5235b9e228fb642fe45532ba9b9b4df399abe"
     },
     {
       "installSize": 2836621,
