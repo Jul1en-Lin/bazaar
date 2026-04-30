@@ -1,6 +1,139 @@
 {
   "repos": [
     {
+      "installSize": 55901,
+      "openIssues": 0,
+      "package": {
+        "author": "rio-csharp",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Add previous and next page buttons at the bottom of each document to browse all documents in tree order",
+          "zh_CN": "在每个文档底部添加上一页和下一页按钮,按照文档树顺序浏览所有文档"
+        },
+        "disabledInPublish": false,
+        "displayName": {
+          "default": "Next Page Button",
+          "zh_CN": "文档导航按钮"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "navigation",
+          "翻页"
+        ],
+        "minAppVersion": "3.0.0",
+        "name": "next-page-button",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/rio-csharp/next-page-button",
+        "version": "1.2.1"
+      },
+      "size": 23304,
+      "stars": 0,
+      "updated": "2026-04-30T03:47:16Z",
+      "url": "rio-csharp/next-page-button@0852ef8e66c6420556bf14521b1469d441ef4bec"
+    },
+    {
+      "installSize": 10559263,
+      "openIssues": 0,
+      "package": {
+        "author": "suka233",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A fully redesigned KMind mind mapping plugin for SiYuan. Drag SiYuan documents and blocks directly into your mind maps, with unlimited summary levels, cloze nodes, bidirectional links, and more. Currently in public beta.",
+          "zh_CN": "全新设计的 KMind 思维导图插件，可直接将思源文档和思源块拖入导图，支持无限层级概要、节点挖空、节点双链等能力；当前为公测版。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "KMind Zen Mind Map Plugin",
+          "zh_CN": "KMind Zen 思维导图插件"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": null,
+        "keywords": [
+          "思维导图",
+          "mindmap",
+          "KMind",
+          "KMindZen",
+          "KMind Zen"
+        ],
+        "minAppVersion": "3.0.0",
+        "name": "siyuan-kmind-zen",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/suka233/siyuan-kmind-zen",
+        "version": "0.3.1"
+      },
+      "size": 7946522,
+      "stars": 1,
+      "updated": "2026-04-30T01:33:37Z",
+      "url": "suka233/siyuan-kmind-zen@fb2e339348a8a3dab516b43255ae2e78ce8ec5eb"
+    },
+    {
+      "installSize": 1802320,
+      "openIssues": 2,
+      "package": {
+        "author": "Roy",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A habit tracking plugin for SiYuan",
+          "zh_CN": "每一次微小的坚持都值得记录"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Pinch Habit",
+          "zh_CN": "片趣-习惯打卡&amp;任务管理"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://afdian.com/a/Savor"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "habit",
+          "tracker",
+          "check-in"
+        ],
+        "minAppVersion": "3.6.4",
+        "name": "pinch",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/royc01/pinch",
+        "version": "2.2.5"
+      },
+      "size": 743925,
+      "stars": 8,
+      "updated": "2026-04-30T00:13:06Z",
+      "url": "royc01/pinch@c61f0b8609fc534dcfd111180532cd32d5396d3b"
+    },
+    {
       "installSize": 873376,
       "openIssues": 3,
       "package": {
@@ -336,48 +469,6 @@
       "stars": 5,
       "updated": "2026-04-29T08:56:45Z",
       "url": "QYLexpired/Asri-enhance@cf8ccda0019629819650f0ba40266d9a4842a26d"
-    },
-    {
-      "installSize": 10542239,
-      "openIssues": 0,
-      "package": {
-        "author": "suka233",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A fully redesigned KMind mind mapping plugin for SiYuan. Drag SiYuan documents and blocks directly into your mind maps, with unlimited summary levels, cloze nodes, bidirectional links, and more. Currently in public beta.",
-          "zh_CN": "全新设计的 KMind 思维导图插件，可直接将思源文档和思源块拖入导图，支持无限层级概要、节点挖空、节点双链等能力；当前为公测版。"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "KMind Zen Mind Map Plugin",
-          "zh_CN": "KMind Zen 思维导图插件"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": null,
-        "keywords": [
-          "思维导图",
-          "mindmap",
-          "KMind",
-          "KMindZen",
-          "KMind Zen"
-        ],
-        "minAppVersion": "3.0.0",
-        "name": "siyuan-kmind-zen",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/suka233/siyuan-kmind-zen",
-        "version": "0.2.0"
-      },
-      "size": 7941900,
-      "stars": 1,
-      "updated": "2026-04-29T08:24:39Z",
-      "url": "suka233/siyuan-kmind-zen@e5b155566d7ca9439e87c90a6b77b0ac2a530f2c"
     },
     {
       "installSize": 79958136,
@@ -1674,53 +1765,6 @@
       "stars": 9,
       "updated": "2026-04-18T08:33:09Z",
       "url": "b8l8u8e8/siyuan-plugin-emoji-market@d361186fa2c5ecf8b498d64107d2462e337330c4"
-    },
-    {
-      "installSize": 1458622,
-      "openIssues": 1,
-      "package": {
-        "author": "Roy",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A habit tracking plugin for SiYuan",
-          "zh_CN": "每一次微小的坚持都值得记录"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Pinch Habit",
-          "zh_CN": "片趣-习惯打卡&amp;任务管理"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://afdian.com/a/Savor"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "habit",
-          "tracker",
-          "check-in"
-        ],
-        "minAppVersion": "3.6.4",
-        "name": "pinch",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/royc01/pinch",
-        "version": "2.2.4"
-      },
-      "size": 661126,
-      "stars": 6,
-      "updated": "2026-04-18T07:41:30Z",
-      "url": "royc01/pinch@ee5d1f663b3e13572ab7cefa8c58bbd328eca9d8"
     },
     {
       "installSize": 4153610,
@@ -5925,50 +5969,6 @@
       "stars": 1,
       "updated": "2026-01-14T14:34:56Z",
       "url": "yongnianliu/siyuan-ttf-maple-font@a8c7db3479e4ff900a7d3f406ea64b18d972c845"
-    },
-    {
-      "installSize": 51932,
-      "openIssues": 0,
-      "package": {
-        "author": "rio-csharp",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "Add previous and next page buttons at the bottom of each document to browse all documents in tree order",
-          "zh_CN": "在每个文档底部添加上一页和下一页按钮,按照文档树顺序浏览所有文档"
-        },
-        "disabledInPublish": false,
-        "displayName": {
-          "default": "Next Page Button",
-          "zh_CN": "文档导航按钮"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "navigation",
-          "翻页"
-        ],
-        "minAppVersion": "3.0.0",
-        "name": "next-page-button",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/rio-csharp/next-page-button",
-        "version": "1.2.0"
-      },
-      "size": 22279,
-      "stars": 1,
-      "updated": "2026-01-11T10:25:37Z",
-      "url": "rio-csharp/next-page-button@e8f61bcc50c1f91f2554a76ac86e55fe7bb080e1"
     },
     {
       "installSize": 68416,
