@@ -1,7 +1,7 @@
 {
   "repos": [
     {
-      "installSize": 896809,
+      "installSize": 898564,
       "openIssues": 2,
       "package": {
         "author": "LunaNorth",
@@ -37,12 +37,12 @@
           "default": "README.md"
         },
         "url": "https://github.com/LunaNorth/siyuan-lumina",
-        "version": "1.2.1"
+        "version": "1.2.2"
       },
-      "size": 248176,
+      "size": 248547,
       "stars": 2,
-      "updated": "2026-04-30T22:36:01Z",
-      "url": "LunaNorth/siyuan-lumina@fa2a57ac8da9d22bd299eff32a574a66bc04ab47"
+      "updated": "2026-04-30T23:12:54Z",
+      "url": "LunaNorth/siyuan-lumina@cc85cfd7e6ab2a54818700e7f1cf6379626d92cd"
     },
     {
       "installSize": 8812254,
