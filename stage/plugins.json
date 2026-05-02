@@ -1,6 +1,48 @@
 {
   "repos": [
     {
+      "installSize": 10615036,
+      "openIssues": 0,
+      "package": {
+        "author": "suka233",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A fully redesigned KMind mind mapping plugin for SiYuan. Drag SiYuan documents and blocks directly into your mind maps, with unlimited summary levels, cloze nodes, bidirectional links, and more. Currently in public beta.",
+          "zh_CN": "全新设计的 KMind 思维导图插件，可直接将思源文档和思源块拖入导图，支持无限层级概要、节点挖空、节点双链等能力；当前为公测版。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "KMind Zen Mind Map Plugin",
+          "zh_CN": "KMind Zen 思维导图插件"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": null,
+        "keywords": [
+          "思维导图",
+          "mindmap",
+          "KMind",
+          "KMindZen",
+          "KMind Zen"
+        ],
+        "minAppVersion": "3.0.0",
+        "name": "siyuan-kmind-zen",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/suka233/siyuan-kmind-zen",
+        "version": "0.4.0"
+      },
+      "size": 7964081,
+      "stars": 1,
+      "updated": "2026-05-02T04:55:52Z",
+      "url": "suka233/siyuan-kmind-zen@6ee594066859e8bb8bd09402220be1cf92130af5"
+    },
+    {
       "installSize": 902286,
       "openIssues": 2,
       "package": {
@@ -182,48 +224,6 @@
       "stars": 0,
       "updated": "2026-04-30T10:58:05Z",
       "url": "notesynchelper/siyuan-notehelper@8fd83ed0e8f737683d752aec290ef12362a5d138"
-    },
-    {
-      "installSize": 10560755,
-      "openIssues": 0,
-      "package": {
-        "author": "suka233",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A fully redesigned KMind mind mapping plugin for SiYuan. Drag SiYuan documents and blocks directly into your mind maps, with unlimited summary levels, cloze nodes, bidirectional links, and more. Currently in public beta.",
-          "zh_CN": "全新设计的 KMind 思维导图插件，可直接将思源文档和思源块拖入导图，支持无限层级概要、节点挖空、节点双链等能力；当前为公测版。"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "KMind Zen Mind Map Plugin",
-          "zh_CN": "KMind Zen 思维导图插件"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": null,
-        "keywords": [
-          "思维导图",
-          "mindmap",
-          "KMind",
-          "KMindZen",
-          "KMind Zen"
-        ],
-        "minAppVersion": "3.0.0",
-        "name": "siyuan-kmind-zen",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/suka233/siyuan-kmind-zen",
-        "version": "0.3.3"
-      },
-      "size": 7946968,
-      "stars": 1,
-      "updated": "2026-04-30T08:34:27Z",
-      "url": "suka233/siyuan-kmind-zen@254bb9da3ae9692aca02cdf0f64dc26f1b6016b1"
     },
     {
       "installSize": 468929,
