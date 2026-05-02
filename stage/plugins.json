@@ -580,6 +580,42 @@
       "url": "Achuan-2/siyuan-plugin-task-note-management@ef2ab47f609824aa4b1b6aef5b16da1495964f0b"
     },
     {
+      "installSize": 4095861,
+      "openIssues": 0,
+      "package": {
+        "author": "Ajaykrishnan R",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Embed Desmos graphing calculator in SiYuan note.",
+          "zh_CN": "在思源笔记中嵌入 Desmos 数学绘图计算器。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Desmos Graphing",
+          "zh_CN": "Desmos 数学绘图"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": null,
+        "keywords": null,
+        "minAppVersion": "3.6.4",
+        "name": "siyuan-desmos-graphing",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/TheAjaykrishnanR/siyuan-desmos-graphing",
+        "version": "0.1.0"
+      },
+      "size": 1075235,
+      "stars": 0,
+      "updated": "2026-04-29T10:41:18Z",
+      "url": "TheAjaykrishnanR/siyuan-desmos-graphing@21b0fe44fd090dd6debc1fba3b79c2fa4f866133"
+    },
+    {
       "installSize": 160794,
       "openIssues": 16,
       "package": {
