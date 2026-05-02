@@ -268,6 +268,23 @@ func checkRepos(
 		return
 	}
 
+	var themeJsAllowSet map[string]struct{}
+	if resourceType == themes {
+		ap := filepath.Join(PR_HEAD_PATH, util.ThemeJsAllowlistRelPath)
+		paths, errAllow := util.ParseReposFromTxt(ap)
+		if errAllow != nil {
+			parseErrorMu.Lock()
+			checkResult.ParseError += fmt.Sprintf("[%s] PR head: %v\n", util.ThemeJsAllowlistRelPath, errAllow)
+			parseErrorMu.Unlock()
+			logger.Warnf("load theme.js allowlist [%s] failed: %v, skip this type", ap, errAllow)
+			return
+		}
+		themeJsAllowSet = make(map[string]struct{}, len(paths))
+		for _, p := range paths {
+			themeJsAllowSet[p] = struct{}{}
+		}
+	}
+
 	// 按 base/head diff 并过滤：新增 = head 有而 base 无且不在 bazaar head（多为解决冲突时从 bazaar head 合并来的）；删除 = base 有而 head 无且仍在 bazaar head（确属本 PR 删除）
 	newRepos := make([]string, 0)
 	for _, path := range headPaths {
@@ -369,7 +386,7 @@ func checkRepos(
 	p, _ := ants.NewPoolWithFunc(8, func(arg interface{}) {
 		defer waitGroupCheck.Done()
 		repo := arg.(string)
-		checkRepo(repo, allTypesNameSet, resourceType, resultChannel, nameSetMutex)
+		checkRepo(repo, allTypesNameSet, resourceType, resultChannel, nameSetMutex, themeJsAllowSet)
 	})
 	defer p.Release()
 
@@ -390,6 +407,7 @@ func checkRepo(
 	resourceType ResourceType,
 	resultChannel chan interface{},
 	nameSetMutex *sync.Mutex,
+	themeJsAllowSet map[string]struct{},
 ) {
 
 	logger.Infof("start repo check [%s]", repoPath)
@@ -622,13 +640,33 @@ func checkRepo(
 					logger.Warn(err.Error())
 				}
 
+				var noThemeJsCheckResult *File
+				if _, allowed := themeJsAllowSet[repoPath]; allowed {
+					noThemeJsCheckResult = &File{
+						Pass: true,
+						URL:  buildFilePreviewURL(repoOwner, repoName, releaseCheckResult.LatestRelease.Hash, FILE_PATH_THEME_JS),
+					}
+				} else {
+					noThemeJsCheckResult, err = checkFileAbsent(
+						repoOwner,
+						repoName,
+						releaseCheckResult.LatestRelease.Hash,
+						FILE_PATH_THEME_JS,
+					)
+					if err != nil {
+						logger.Warn(err.Error())
+					}
+				}
+
 				filesCheckResult = &ThemeFiles{
 					Pass: themeJsonCheckResult.Pass &&
+						noThemeJsCheckResult.Pass &&
 						iconPngCheckResult.Pass &&
 						previewPngCheckResult.Pass &&
 						readmeMdCheckResult.Pass,
 
 					ThemeJson: *themeJsonCheckResult,
+					NoThemeJs: *noThemeJsCheckResult,
 
 					IconPng:    *iconPngCheckResult,
 					PreviewPng: *previewPngCheckResult,
@@ -885,6 +923,52 @@ func checkFileExist(
 	}
 
 	err = fmt.Errorf("HTTP HEAD request [%s] failed: %s", rawUrl, response.Status)
+	return
+}
+
+// checkFileAbsent 检查文件是否不存在（新上架主题不得包含 theme.js）。404 为通过，200 为不通过。
+func checkFileAbsent(
+	repoOwner string,
+	repoName string,
+	hash string,
+	filePath string,
+) (
+	fileCheckResult *File,
+	err error,
+) {
+	fileCheckResult = &File{}
+	rawURL := buildFileRawURL(
+		repoOwner,
+		repoName,
+		hash,
+		filePath,
+	)
+	fileCheckResult.URL = buildFilePreviewURL(
+		repoOwner,
+		repoName,
+		hash,
+		filePath,
+	)
+
+	response, _, errs := gorequest.
+		New().
+		Head(rawURL).
+		Set("User-Agent", util.UserAgent).
+		Retry(REQUEST_RETRY_COUNT, REQUEST_RETRY_DURATION).
+		Timeout(REQUEST_TIMEOUT).
+		End()
+	if nil != errs {
+		logger.Fatalf("HTTP HEAD request [%s] failed: %s", rawURL, errs)
+		panic(errs)
+	}
+	switch response.StatusCode {
+	case http.StatusNotFound:
+		fileCheckResult.Pass = true
+	case http.StatusOK:
+		fileCheckResult.Pass = false
+	default:
+		err = fmt.Errorf("HTTP HEAD request [%s] failed: %s", rawURL, response.Status)
+	}
 	return
 }
 
