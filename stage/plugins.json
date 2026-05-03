@@ -1,6 +1,120 @@
 {
   "repos": [
     {
+      "installSize": 3949466,
+      "openIssues": 3,
+      "package": {
+        "author": "IAliceBobI",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "[🔓Open Source] [🛡️GitHub Online Compilation] Status Bar Pomodoro, Automatic Export to Markdown, Prefix Document Tree, Mobile Multi-Select, Enhanced Folding, Annotations, Bottom Backlinks, Synchronization Blocks, Mind Guides, Block Relationship Diagrams, Text to Citations, Photo Flash Notes, Reading Points, Bidirectional Links, AI Knowledge Base Q&amp;A, Streaming AI, Database Backlinks, Flashcard Priority, Document Merging, Regular Reminders, Delete Cards During Review, Flashcard Image Blanking, Move to Today&#39;s Notes, Clean Up Invalid Flashcards",
+          "zh_CN": "【🔓已开源】【🛡️Github在线编译】状态栏番茄钟、自动导出markdown、前缀文档树、移动端多选、增强折叠、批注、底部反链、同步块、思维导线、块关系图、文本转引用、拍照闪念、阅读点、双向互链、AI知识库问答、流式AI、数据库反链、闪卡优先级、文档合并、定期提醒、复习时删卡、闪卡图片挖空、移到今日笔记、清理失效闪卡"
+        },
+        "disabledInPublish": false,
+        "displayName": {
+          "default": "Tomato Toolbox",
+          "zh_CN": "番茄工具箱"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://afdian.com/a/playerv5"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "TomatoClock",
+          "Time management",
+          "Productivity",
+          "Pomodoro technique",
+          "Timer plugin",
+          "Task scheduling",
+          "Focus sessions",
+          "Work intervals",
+          "Breaks",
+          "Time tracking",
+          "Timeboxing",
+          "Time optimization",
+          "Efficiency",
+          "Work-life balance",
+          "Distraction management",
+          "Task prioritization",
+          "Time blocking",
+          "Time visualization",
+          "Progress tracking",
+          "Goal setting"
+        ],
+        "minAppVersion": "3.0.3",
+        "name": "sy-tomato-plugin",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/IAliceBobI/sy-tomato-plugin",
+        "version": "5.3.94"
+      },
+      "size": 1545399,
+      "stars": 45,
+      "updated": "2026-05-03T05:54:37Z",
+      "url": "IAliceBobI/sy-tomato-plugin@736f1bbf6a64bb20099cf26d04722e5372df335e"
+    },
+    {
+      "installSize": 670254,
+      "openIssues": 0,
+      "package": {
+        "author": "whale🐋",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A points reward management plugin for habit tracking. Add points, create wishes, track progress with calendar and charts.",
+          "zh_CN": "凡人修仙传主题打卡插件。每日添加灵石记录修行，创建心愿单激励自己，通过日历和图表追踪修仙进度，助你养成良好习惯，证得大道。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "凡人修仙传：打卡",
+          "en_US": "Cultivation Tracker"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": null,
+        "keywords": [
+          "points",
+          "reward",
+          "habit",
+          "tracker",
+          "wishlist",
+          "gamification",
+          "灵石",
+          "奖励",
+          "习惯",
+          "心愿单",
+          "游戏化",
+          "打卡",
+          "养成"
+        ],
+        "minAppVersion": "3.0.0",
+        "name": "siyuan-points-reward",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/HaoCeans/siyuan-points-reward",
+        "version": "0.8.7"
+      },
+      "size": 293765,
+      "stars": 2,
+      "updated": "2026-05-03T04:20:30Z",
+      "url": "HaoCeans/siyuan-points-reward@989a3e72d7dba75bf854024998317cb0a337746b"
+    },
+    {
       "installSize": 5030079,
       "openIssues": 1,
       "package": {
@@ -973,56 +1087,6 @@
       "stars": 110,
       "updated": "2026-04-28T14:58:26Z",
       "url": "Achuan-2/siyuan-plugin-copilot@fda73dab399e8b60b476528f59779b488c5ccd92"
-    },
-    {
-      "installSize": 633105,
-      "openIssues": 0,
-      "package": {
-        "author": "whale🐋",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A points reward management plugin for habit tracking. Add points, create wishes, track progress with calendar and charts.",
-          "zh_CN": "凡人修仙传主题打卡插件。每日添加灵石记录修行，创建心愿单激励自己，通过日历和图表追踪修仙进度，助你养成良好习惯，证得大道。"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "凡人修仙传：打卡",
-          "en_US": "Cultivation Tracker"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": null,
-        "keywords": [
-          "points",
-          "reward",
-          "habit",
-          "tracker",
-          "wishlist",
-          "gamification",
-          "灵石",
-          "奖励",
-          "习惯",
-          "心愿单",
-          "游戏化",
-          "打卡",
-          "养成"
-        ],
-        "minAppVersion": "3.0.0",
-        "name": "siyuan-points-reward",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/HaoCeans/siyuan-points-reward",
-        "version": "0.8.5"
-      },
-      "size": 285263,
-      "stars": 2,
-      "updated": "2026-04-28T11:22:06Z",
-      "url": "HaoCeans/siyuan-points-reward@944af7322efaaffb48e8312caa8bc2e94d53dcb0"
     },
     {
       "installSize": 133745,
@@ -3182,70 +3246,6 @@
       "stars": 6,
       "updated": "2026-03-22T05:59:08Z",
       "url": "makediff/siyuan-wucai@c32db12944b13a2f95191c7dc82a802b137467a8"
-    },
-    {
-      "installSize": 3948874,
-      "openIssues": 3,
-      "package": {
-        "author": "IAliceBobI",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "[🔓Open Source] [🛡️GitHub Online Compilation] Status Bar Pomodoro, Automatic Export to Markdown, Prefix Document Tree, Mobile Multi-Select, Enhanced Folding, Annotations, Bottom Backlinks, Synchronization Blocks, Mind Guides, Block Relationship Diagrams, Text to Citations, Photo Flash Notes, Reading Points, Bidirectional Links, AI Knowledge Base Q&amp;A, Streaming AI, Database Backlinks, Flashcard Priority, Document Merging, Regular Reminders, Delete Cards During Review, Flashcard Image Blanking, Move to Today&#39;s Notes, Clean Up Invalid Flashcards",
-          "zh_CN": "【🔓已开源】【🛡️Github在线编译】状态栏番茄钟、自动导出markdown、前缀文档树、移动端多选、增强折叠、批注、底部反链、同步块、思维导线、块关系图、文本转引用、拍照闪念、阅读点、双向互链、AI知识库问答、流式AI、数据库反链、闪卡优先级、文档合并、定期提醒、复习时删卡、闪卡图片挖空、移到今日笔记、清理失效闪卡"
-        },
-        "disabledInPublish": false,
-        "displayName": {
-          "default": "Tomato Toolbox",
-          "zh_CN": "番茄工具箱"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://afdian.com/a/playerv5"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "TomatoClock",
-          "Time management",
-          "Productivity",
-          "Pomodoro technique",
-          "Timer plugin",
-          "Task scheduling",
-          "Focus sessions",
-          "Work intervals",
-          "Breaks",
-          "Time tracking",
-          "Timeboxing",
-          "Time optimization",
-          "Efficiency",
-          "Work-life balance",
-          "Distraction management",
-          "Task prioritization",
-          "Time blocking",
-          "Time visualization",
-          "Progress tracking",
-          "Goal setting"
-        ],
-        "minAppVersion": "3.0.3",
-        "name": "sy-tomato-plugin",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/IAliceBobI/sy-tomato-plugin",
-        "version": "5.3.93"
-      },
-      "size": 1545387,
-      "stars": 45,
-      "updated": "2026-03-20T16:01:42Z",
-      "url": "IAliceBobI/sy-tomato-plugin@193e71bf8d1b8f620f7f600a6be5a6805c68f0a3"
     },
     {
       "installSize": 147483,
