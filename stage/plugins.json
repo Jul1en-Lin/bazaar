@@ -206,6 +206,53 @@
       "url": "HaoCeans/siyuan-points-reward@989a3e72d7dba75bf854024998317cb0a337746b"
     },
     {
+      "installSize": 393240,
+      "openIssues": 6,
+      "package": {
+        "author": "QuincyZou",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "VS Code style find-and-replace for the current SiYuan document.",
+          "zh_CN": "为思源笔记提供接近 VS Code 的搜索体验，所见即所得，逐个搜索，逐个替换，so easy！"
+        },
+        "disabledInPublish": false,
+        "displayName": {
+          "default": "Search like VScode",
+          "zh_CN": "搜 easy"
+        },
+        "frontends": [
+          "desktop",
+          "desktop-window",
+          "browser-desktop"
+        ],
+        "funding": {
+          "custom": [],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "search",
+          "replace",
+          "VS Code"
+        ],
+        "minAppVersion": "3.5.7",
+        "name": "siyuan-sou-easy",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/famotime/siyuan-sou-easy",
+        "version": "1.2.3"
+      },
+      "size": 243156,
+      "stars": 6,
+      "updated": "2026-05-03T02:07:21Z",
+      "url": "famotime/siyuan-sou-easy@19726141d326c9bf26e8f61f3fd19a53553b4ea4"
+    },
+    {
       "installSize": 5030079,
       "openIssues": 1,
       "package": {
@@ -2087,53 +2134,6 @@
       "stars": 0,
       "updated": "2026-04-16T13:42:45Z",
       "url": "bytemain/siyuan-plugin-settings-sync@3c10157c1e4ddba9e5292c1846eb6d0cb17807f2"
-    },
-    {
-      "installSize": 389207,
-      "openIssues": 4,
-      "package": {
-        "author": "QuincyZou",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "VS Code style find-and-replace for the current SiYuan document.",
-          "zh_CN": "为思源笔记提供接近 VS Code 的搜索体验，所见即所得，逐个搜索，逐个替换，so easy！"
-        },
-        "disabledInPublish": false,
-        "displayName": {
-          "default": "Search like VScode",
-          "zh_CN": "搜 easy"
-        },
-        "frontends": [
-          "desktop",
-          "desktop-window",
-          "browser-desktop"
-        ],
-        "funding": {
-          "custom": [],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "search",
-          "replace",
-          "VS Code"
-        ],
-        "minAppVersion": "3.5.7",
-        "name": "siyuan-sou-easy",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/famotime/siyuan-sou-easy",
-        "version": "1.2.2"
-      },
-      "size": 242108,
-      "stars": 5,
-      "updated": "2026-04-14T13:19:28Z",
-      "url": "famotime/siyuan-sou-easy@de6f6e75fbcfa06cd8744060f6eadfdc315284c9"
     },
     {
       "installSize": 58600,
