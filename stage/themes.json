@@ -1,6 +1,50 @@
 {
   "repos": [
     {
+      "installSize": 790123,
+      "openIssues": 3,
+      "package": {
+        "author": "mustakshif",
+        "description": {
+          "default": "Crafting a space where visual distractions disappear and your thinking takes center stage - immersive, focused, and intuitively guided.",
+          "zh_CN": "极富现代感的主题，以隐形设计构筑沉浸空间，为你带来专注、优雅、直觉驱动的笔记体验。"
+        },
+        "displayName": {
+          "default": "Asri",
+          "en_US": "Asri",
+          "zh_CN": "Asri"
+        },
+        "funding": {
+          "custom": [
+            "https://d7y10jvubi.feishu.cn/docx/R9AOd6OXSo9JThx2AH6cUo4tntf"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "Asri",
+          "Hadeeth"
+        ],
+        "minAppVersion": "",
+        "modes": [
+          "light",
+          "dark"
+        ],
+        "name": "Asri",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/mustakshif/Asri",
+        "version": "3.6.18"
+      },
+      "size": 302747,
+      "stars": 116,
+      "updated": "2026-05-03T09:00:52Z",
+      "url": "mustakshif/Asri@2330c411992c060ab221f54be4b51b7d4b5fb293"
+    },
+    {
       "installSize": 2294725,
       "openIssues": 1,
       "package": {
@@ -46,50 +90,6 @@
       "stars": 131,
       "updated": "2026-05-02T03:19:18Z",
       "url": "QYLexpired/QYL-theme@a1fcd2c745e53c4839ed0c94fdca9feb00bc7bde"
-    },
-    {
-      "installSize": 786793,
-      "openIssues": 3,
-      "package": {
-        "author": "mustakshif",
-        "description": {
-          "default": "Crafting a space where visual distractions disappear and your thinking takes center stage - immersive, focused, and intuitively guided.",
-          "zh_CN": "极富现代感的主题，以隐形设计构筑沉浸空间，为你带来专注、优雅、直觉驱动的笔记体验。"
-        },
-        "displayName": {
-          "default": "Asri",
-          "en_US": "Asri",
-          "zh_CN": "Asri"
-        },
-        "funding": {
-          "custom": [
-            "https://d7y10jvubi.feishu.cn/docx/R9AOd6OXSo9JThx2AH6cUo4tntf"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "Asri",
-          "Hadeeth"
-        ],
-        "minAppVersion": "",
-        "modes": [
-          "light",
-          "dark"
-        ],
-        "name": "Asri",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/mustakshif/Asri",
-        "version": "3.6.17"
-      },
-      "size": 302412,
-      "stars": 117,
-      "updated": "2026-04-29T03:30:33Z",
-      "url": "mustakshif/Asri@bb5304248da2610746a245f90454debb096101f3"
     },
     {
       "installSize": 1605872,
