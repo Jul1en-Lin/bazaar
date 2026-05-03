@@ -1,6 +1,49 @@
 {
   "repos": [
     {
+      "installSize": 1737410,
+      "openIssues": 1,
+      "package": {
+        "author": "QYL",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A plugin for Asri theme",
+          "zh_CN": "专为Asri主题设计的增强插件"
+        },
+        "disabledInPublish": false,
+        "displayName": {
+          "default": "Asri+",
+          "zh_CN": "Asri+"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://afdian.com/a/QYLexpired"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": null,
+        "minAppVersion": "3.5.0",
+        "name": "Asri-enhance",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/QYLexpired/Asri-enhance",
+        "version": "2.3.19"
+      },
+      "size": 905458,
+      "stars": 6,
+      "updated": "2026-05-03T16:15:54Z",
+      "url": "QYLexpired/Asri-enhance@cdf9dbd05ffa47192ed1597147481a5e9e52bede"
+    },
+    {
       "installSize": 10692437,
       "openIssues": 0,
       "package": {
@@ -897,49 +940,6 @@
       "stars": 107,
       "updated": "2026-04-29T10:03:32Z",
       "url": "DD3Boh/better-sync-siyuan@2b004c4e469cd6adaf4e8c6efc03485eea7a36cb"
-    },
-    {
-      "installSize": 1556446,
-      "openIssues": 1,
-      "package": {
-        "author": "QYL",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A plugin for Asri theme",
-          "zh_CN": "专为Asri主题设计的增强插件"
-        },
-        "disabledInPublish": false,
-        "displayName": {
-          "default": "Asri+",
-          "zh_CN": "Asri+"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://afdian.com/a/QYLexpired"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": null,
-        "minAppVersion": "3.5.0",
-        "name": "Asri-enhance",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/QYLexpired/Asri-enhance",
-        "version": "2.3.18"
-      },
-      "size": 898416,
-      "stars": 5,
-      "updated": "2026-04-29T08:56:45Z",
-      "url": "QYLexpired/Asri-enhance@cf8ccda0019629819650f0ba40266d9a4842a26d"
     },
     {
       "installSize": 79958136,
