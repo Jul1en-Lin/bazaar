@@ -142,6 +142,50 @@
       "url": "famotime/siyuan-canvas@9bbaf09b90fcf986cdbd33756ebd0525ace75daa"
     },
     {
+      "installSize": 849290,
+      "openIssues": 0,
+      "package": {
+        "author": "sagit",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Automatically upload pasted images to Aliyun OSS and insert remote image links.",
+          "zh_CN": "自动上传粘贴到思源笔记中的图片到阿里云 OSS，并插入远程图片链接。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Aliyun OSS Image Uploader",
+          "zh_CN": "阿里云 OSS 图片上传"
+        },
+        "frontends": [
+          "desktop",
+          "desktop-window",
+          "browser-desktop"
+        ],
+        "funding": null,
+        "keywords": [
+          "阿里云",
+          "OSS",
+          "图片上传",
+          "粘贴图片",
+          "Aliyun OSS"
+        ],
+        "minAppVersion": "3.6.4",
+        "name": "siyuan-alioss-image-uploader",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/aluluvip/siyuan-alioss-image-uploader",
+        "version": "0.1.4"
+      },
+      "size": 307506,
+      "stars": 0,
+      "updated": "2026-05-04T08:53:53Z",
+      "url": "aluluvip/siyuan-alioss-image-uploader@cfb9b83df60fa1c255245dd960530ef66779de36"
+    },
+    {
       "installSize": 675677,
       "openIssues": 0,
       "package": {
