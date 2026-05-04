@@ -105,6 +105,43 @@
       "url": "notesynchelper/siyuan-notehelper@76f7a18ad1ae59b77cccf13d52d3781e9499a022"
     },
     {
+      "installSize": 463220,
+      "openIssues": 1,
+      "package": {
+        "author": "Quincy Zou",
+        "backends": [
+          "windows"
+        ],
+        "description": {
+          "default": "Import, edit, and export Obsidian Canvas files inside SiYuan",
+          "zh_CN": "在思源中导入、编辑并导出 Obsidian Canvas 文件"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Canvas",
+          "zh_CN": "无界"
+        },
+        "frontends": [
+          "desktop",
+          "desktop-window"
+        ],
+        "funding": null,
+        "keywords": null,
+        "minAppVersion": "2.10.14",
+        "name": "siyuan-canvas",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/famotime/siyuan-canvas",
+        "version": "1.0.6"
+      },
+      "size": 251274,
+      "stars": 0,
+      "updated": "2026-05-04T09:46:58Z",
+      "url": "famotime/siyuan-canvas@9bbaf09b90fcf986cdbd33756ebd0525ace75daa"
+    },
+    {
       "installSize": 675677,
       "openIssues": 0,
       "package": {
